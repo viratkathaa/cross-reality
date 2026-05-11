@@ -1,0 +1,10 @@
+# Cross-Reality Model Receiver — Python dependencies
+# All HTTP and file I/O uses Python's standard library (urllib, subprocess, pathlib)
+# so there are NO third-party packages required at runtime.
+#
+# If you want to use the optional Firebase Admin SDK instead of the REST API
+# (e.g. for real-time streaming instead of polling), uncomment the line below:
+# firebase-admin>=6.0
+
+# Optional — install only if you want coloured terminal output
+# colorama>=0.4.6
