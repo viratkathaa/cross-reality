@@ -23,7 +23,6 @@ The desktop can also independently push any `.glb` file into the headset.
 
 | Document | Purpose |
 |---|---|
-| [`KNOWLEDGE_TRANSFER.md`](KNOWLEDGE_TRANSFER.md) | **Start here.** Full onboarding for new contributors. |
 | [`REPORT.md`](REPORT.md) | Living project status report. |
 | [`SAM3D_SETUP_GUIDE.md`](SAM3D_SETUP_GUIDE.md) | First-time FAL AI account setup. |
 
@@ -42,11 +41,9 @@ The desktop can also independently push any `.glb` file into the headset.
 
 ## Setup
 
-See [`KNOWLEDGE_TRANSFER.md`](KNOWLEDGE_TRANSFER.md) §6. The short version:
-
 1. Get a FAL AI API key from https://fal.ai
 2. Create a free Firebase project, enable Realtime Database + Storage
-3. Replace `YOUR_FAL_AI_API_KEY` and `YOUR_FIREBASE_SECRET_HERE` placeholders in the codebase
+3. Replace `YOUR_FAL_AI_API_KEY`, `YOUR_FIREBASE_SECRET_HERE`, and `YOUR_HUGGINGFACE_TOKEN_HERE` placeholders in the codebase
 4. Open in Unity 6000.3.8f1, build to Quest 3
 5. Run `python laptop_receiver/receiver.py` on your laptop
 
@@ -66,4 +63,4 @@ Built on top of:
 - Unity GLTFast
 - Google Firebase
 
-See [`KNOWLEDGE_TRANSFER.md`](KNOWLEDGE_TRANSFER.md) §15 for the full credits list.
+See [`REPORT.md`](REPORT.md) for the full credits list.
